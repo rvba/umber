@@ -10,28 +10,18 @@
 #ifndef __BASE_H__
 #define __BASE_H__
 
+
+#include <string.h>
 #include "umber.h"
 
-#include "mem.h"
-#include "vec.h"
-#include "rnd.h"
-#include "vol.h"
-#include "str.h"
-#include "net.h"
-#include "cpt.h"
-#include "sys.h"
-//#include "lst.h"
-#include "ptr.h"
-#include "sock.h"
-#include "eng.h"
-#include "srv.h"
-#include "proc.h"
-#include "clock.h"
-#include "shm.h"
+#define MILLION 1000000
 
-#ifdef HAVE_OSC
-#include "osc.h"
-#endif
+#define _NAME_LONG_ 128
+#define _PATH_ 150
+#define _EXT_ 10
+#define _STATE_ 20
+#define _LIST_ 10
+
 
 #ifdef __cplusplus
 extern "C" {

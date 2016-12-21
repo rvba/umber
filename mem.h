@@ -10,7 +10,11 @@
 #ifndef __MEM_H_
 #define __MEM_H_
 
-#include "common.h"
+//#include "common.h"
+//
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
 
 #ifdef __cplusplus
 extern "C" {
