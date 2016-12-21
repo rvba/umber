@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-I./ -L./ #-g -DDEBUG
+CFLAGS=-I./ -L./ -fPIC#-g -DDEBUG
 LDFLAGS=#-lm -g 
 AR = ar
 
