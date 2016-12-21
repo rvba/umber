@@ -6,10 +6,17 @@ project(Umber)
 
 set(SRC_UMBER
 
+	umber.h
 	stash.h
 	stash.c
-	
+	lst.c
+	lst.h
+	mem.c
+	mem.h
+	base.c
+	base.h
 	)
+
 
 GET_PROPERTY(_UMBER_LIB GLOBAL PROPERTY UMBER_LIB)
 
