@@ -22,6 +22,7 @@ typedef struct Stash
 }t_stash;
 
 t_stash *stash_new( size_t elem_size);
+void stash_resize( t_stash *stash, int count);
 void stash_add( t_stash *stash, const void *data);
 void stash_show( t_stash *stash, const char *type);
 void stash_show_by_func( t_stash *stash, void (* f)( void *d));

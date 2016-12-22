@@ -20,6 +20,12 @@ t_stash *stash_new( size_t size)
 	return stash;
 }
 
+void stash_resize( t_stash *stash, int count)
+{
+	stash->data = ( unsigned char *) realloc( stash->data, stash->size * count );
+	stash->count = count;
+}
+
 void stash_inflate( t_stash *stash, int count)
 {
 	stash->data = ( unsigned char *) realloc( stash->data, stash->size * ( count + stash->count ));

@@ -63,7 +63,7 @@ int get_pivot(int i,int j )
     return((i+j) /2);
 }
 
-inline int lst_link_get_order(t_link *link)
+int lst_link_get_order(t_link *link)
 {
 	return link->order;
 }
