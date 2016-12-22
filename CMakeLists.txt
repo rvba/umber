@@ -7,14 +7,13 @@ project(Umber)
 set(SRC_UMBER
 
 	umber.h
+	umber.c
 	stash.h
 	stash.c
 	lst.c
 	lst.h
 	mem.c
 	mem.h
-	base.c
-	base.h
 	)
 
 
