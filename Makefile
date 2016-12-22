@@ -9,7 +9,7 @@ SRC = umber.h umber.c stash.h stash.c lst.c lst.h mem.c mem.h
 OBJ = $(SRC:%.c=%.o)
 
 umber.a: $(OBJ)
-	ar -rc libumber.a  $(OBJ)
+	ar -rcs libumber.a  $(OBJ)
 
 
 clean:
