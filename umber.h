@@ -6,7 +6,6 @@ extern "C" {
 #endif
 
 
-#define SQ(x) ((x) *(x))
 #define is( a, b) ( !( strcmp( (a), (b))))  
 #define _NAME_ 64
 #define MILLION 1000000
@@ -43,6 +42,6 @@ void rest( float sec);
 
 #include "lst.h"
 #include "mem.h"
-#include "base.h"
+#include "stash.h"
 
 #endif

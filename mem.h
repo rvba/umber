@@ -10,8 +10,6 @@
 #ifndef __MEM_H_
 #define __MEM_H_
 
-//#include "common.h"
-//
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>

@@ -7,7 +7,8 @@
  *
  */
 
-#include "base.h"
+#include <string.h>
+#include "umber.h"
 
 
 void set_name(char *dst,const char *src)
