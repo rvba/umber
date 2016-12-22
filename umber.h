@@ -2,6 +2,15 @@
 #define _UMBER_H_
 
 
+#define MILLION 1000000
+
+#define _NAME_LONG_ 128
+#define _PATH_ 150
+#define _EXT_ 10
+#define _STATE_ 20
+#define _LIST_ 10
+
+
 #ifdef __cplusplus
 extern "C" {
 #endif
