@@ -6,7 +6,7 @@ extern "C" {
 #endif
 
 
-#define is( a, b) ( !( strcmp( (a), (b))))  
+#define iseq( a, b) ( !( strcmp( (a), (b))))  
 #define _NAME_ 64
 #define MILLION 1000000
 #define _NAME_LONG_ 128
