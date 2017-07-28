@@ -268,7 +268,7 @@ t_link *lst_link_find_by_name(t_lst *lst, const char *name)
 	for(link = lst->first; link; link=link->next)
 	{
 		t_id *id = (t_id *) link->data;
-		if( is( id->name, name))
+		if( iseq( id->name, name))
 		{
 			return link;
 		}
