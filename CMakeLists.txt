@@ -14,6 +14,8 @@ set(SRC_UMBER
 	lst.h
 	mem.c
 	mem.h
+	str.c
+	str.h
 	)
 
 

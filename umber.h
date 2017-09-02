@@ -43,5 +43,6 @@ void rest( float sec);
 #include "lst.h"
 #include "mem.h"
 #include "stash.h"
+#include "str.h"
 
 #endif
