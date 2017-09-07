@@ -7,7 +7,8 @@
  *
  */
 
-#include "base.h"
+#include "umber.h"
+#include <string.h>
 
 void s_increment( char *str, int max_length)
 {
