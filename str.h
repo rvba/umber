@@ -28,6 +28,7 @@ void 	s_write_time( char *string);
 int 	s_append( char *dest, char *src, int pos);
 void 	s_store( char *target, char source, int pos);
 void	s_increment( char *str, int max_length);
+unsigned int s_length( const char *src);
 
 #ifdef __cplusplus
 }

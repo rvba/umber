@@ -169,4 +169,17 @@ void s_store(char *target,char source,int pos)
 	target[pos] = source;
 }
 
+unsigned int s_length( const char *src)
+{
+	unsigned int l = 0;
+	char *ptr = src;
+	while(*ptr!=0)
+	{
+		l++;
+		ptr++;
+	}
+	return l;
+
+}
+
 
