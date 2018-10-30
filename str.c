@@ -172,14 +172,13 @@ void s_store(char *target,char source,int pos)
 unsigned int s_length( const char *src)
 {
 	unsigned int l = 0;
-	char *ptr = src;
+	char *ptr = (char *) src;
 	while(*ptr!=0)
 	{
 		l++;
 		ptr++;
 	}
 	return l;
-
 }
 
 
